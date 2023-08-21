@@ -1,0 +1,11 @@
+[package]
+name = "hist_statis"
+version = "0.1.0"
+edition = "2021"
+authors = ["Zhenguo LIU <zliu094[at]connect.hkust-gz.edu.cn>"]
+description = """This project is the generic version of DACE's hist lib:
+    https://github.com/dcompiler/dace/blob/main/hist/src/lib.rs
+  """
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
